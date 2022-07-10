@@ -1,0 +1,7 @@
+train: ./dataset/score/images/train # train images
+val: ./dataset/score/images/val # val images
+#test: ./dataset/score/images/test # test images (optional)
+
+# Classes
+nc: 4  # number of classes
+names: ['person','cat','dog','horse']  # class names
